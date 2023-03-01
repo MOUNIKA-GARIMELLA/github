@@ -18,11 +18,5 @@ pipeline {
             }
         }
     }
-    post
-    {
-        always
-        {
-            emailext body: 'body', subject: 'bodypipeline', to:'mounikagarimella618@gmail.com'
-        }
-    }
+    
 }
